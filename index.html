@@ -1,9 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>MemSQL Take Home Project</title>
+  <link rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" type="text/css">
 </head>
 <body>
+  <section class="section">
+    <div class="header">
+      <img src="images/logo_memSQL.svg" alt="logo">
+    </div>
+
+    <div class="icon">
+      <img src="images/demo_icon.png" alt="icon">
+    </div>
+
+    <h1 class="book-demo">Book A Demo</h1>
+    <p class="question">Help us customize your demo by answering the following questions below.</p>
+  </section>
+
+  <section class="section">
+    <form class="form">
+      <div class="business">
+        <label for="email">Business Email</label>
+        <input type="text" id="email" name="email">
+        <span id="required-email" class="error"></span>
+      </div>
+
+      <div class="business">
+        <label for="size">Business Size</label>
+        <select id="size" name="size" required="select">
+          <option value="Select Size">Select Size</option>
+          <option value="1-10">1-10</option>
+          <option value="11-50">11-50</option>
+          <option value="51-100">51-100</option>
+          <option value="101-250">101-250</option>
+          <option value="250+">250+</option>
+        </select>
+        <span id="size-error" class="error"></span>
+      </div>
+
+      <div class="radio">
+        <h3 class="heading">What is the most important thing to you in a solution?</h3>
+        <p id="error-radio" class="error-msg"></p>
+
+        <label for="Real-Time Analytics">Real-Time Analytics</label>
+        <input type="radio" name="radio" id="real-time" value="Real-Time Analytics">
+        <label for="Query Response Time">Query Response Time</label>
+        <input type="radio" name="radio" id="query" value="Query Response Time">
+        <label for="High Concurrency">High Concurrency</label>
+        <input type="radio" name="radio" id="concurrency" value="High Concurrency">
+        <label for="Fast Data Ingest">Fast Data Ingest</label>
+        <input type="radio" name="radio" id="fast-data" value="Fast Data Ingest">
+        <label for="Scalability">Scalability</label>
+        <input type="radio" name="radio" id="scalability" value="Scalability">
+        <label for="Document Storage">Document Storage</label>
+        <input type="radio" name="radio" id="document" value="Document Storage">
+        <label for="Full Text Search">Full Text Search</label>
+        <input type="radio" name="radio" id="search" value="Full Text Search">
+        <label for="Price">Price</label>
+        <input type="radio" name="radio" id="price" value="Price">
+      </div>
+    <button class="schedule" type="button" name="submit">Continue to Schedule a Time -></button>
+    </form>
+  </section>
 
 </body>
 </html>
