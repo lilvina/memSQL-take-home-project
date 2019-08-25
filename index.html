@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>MemSQL Take Home Project</title>
-  <link rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css">
 
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" type="text/css">
 </head>
@@ -14,8 +14,8 @@
       <img src="images/logo_memSQL.svg" alt="logo">
     </div>
 
-    <div class="icon">
-      <img src="images/demo_icon.png" alt="icon">
+    <div class="icon-img">
+      <img src="images/demo_icon.png" alt="">
     </div>
 
     <h1 class="book-demo">Book A Demo</h1>
@@ -23,7 +23,7 @@
   </section>
 
   <section class="section">
-    <form class="form">
+    <form>
       <div class="business">
         <label for="email">Business Email</label>
         <input type="text" id="email" name="email">
@@ -32,7 +32,7 @@
 
       <div class="business">
         <label for="size">Business Size</label>
-        <select id="size" name="size" required="select">
+        <select id="size" name="size" required class="select">
           <option value="Select Size">Select Size</option>
           <option value="1-10">1-10</option>
           <option value="11-50">11-50</option>
@@ -43,28 +43,47 @@
         <span id="size-error" class="error"></span>
       </div>
 
-      <div class="radio">
+      <div class="radio-section">
         <h3 class="heading">What is the most important thing to you in a solution?</h3>
         <p id="error-radio" class="error-msg"></p>
+        <table>
+          <tr>
+            <td><input type="radio" name="indicate" id="real-time" value="Real-Time Analytics" required="">
+              <span class="input-radio">Real-Time Analytics</span>
+            </td>
+            <td><input type="radio" name="indicate" id="scalability" value="Scalability">
+              <span class="input-radio">Scalability</span>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="indicate" id="query" value="Query Response Time">
+              <span class="input-radio">Query Response Time</span>
+            </td>
+            <td><input type="radio" name="indicate" id="document" value="Document Storage">
+              <span class="input-radio">Document Storage</span>
+            </td>
+          </tr>
 
-        <label for="Real-Time Analytics">Real-Time Analytics</label>
-        <input type="radio" name="radio" id="real-time" value="Real-Time Analytics">
-        <label for="Query Response Time">Query Response Time</label>
-        <input type="radio" name="radio" id="query" value="Query Response Time">
-        <label for="High Concurrency">High Concurrency</label>
-        <input type="radio" name="radio" id="concurrency" value="High Concurrency">
-        <label for="Fast Data Ingest">Fast Data Ingest</label>
-        <input type="radio" name="radio" id="fast-data" value="Fast Data Ingest">
-        <label for="Scalability">Scalability</label>
-        <input type="radio" name="radio" id="scalability" value="Scalability">
-        <label for="Document Storage">Document Storage</label>
-        <input type="radio" name="radio" id="document" value="Document Storage">
-        <label for="Full Text Search">Full Text Search</label>
-        <input type="radio" name="radio" id="search" value="Full Text Search">
-        <label for="Price">Price</label>
-        <input type="radio" name="radio" id="price" value="Price">
+          <tr>
+            <td><input type="radio" name="indicate" id="concurrency" value="High Concurrency">
+              <span class="input-radio">High Concurrency</span>
+            </td>
+            <td><input type="radio" name="indicate" id="text-search" value="Full Text Search">
+              <span class="input-radio">Full Text Search</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td><input type="radio" name="indicate" id="data" value="Fast-Data Ingest">
+              <span class="input-radio">Fast-Data Ingest</span>
+            </td>
+            <td><input type="radio" name="indicate" id="price" value="Price">
+              <span class="input-radio">Price</span>
+            </td>
+          </tr>
+        </table>
+      <button class="schedule" type="button" name="submit">Continue to Schedule a Time -></button>
       </div>
-    <button class="schedule" type="button" name="submit">Continue to Schedule a Time -></button>
     </form>
   </section>
 

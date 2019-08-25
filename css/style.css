@@ -1,0 +1,131 @@
+.section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section section {
+  text-align: center;
+}
+
+.book-demo {
+  font-family: Lato;
+  color: black;
+  text-align: center;
+  line-height: 53px;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: -20px;
+  margin-top: 0;
+}
+
+.header img {
+  width: 100%;
+  height: 40;
+  background: #555;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.question {
+  text-align: center;
+  color: #828282;
+  font-style: normal;
+  font-family: Lato;
+  font-weight: normal;
+  line-height: normal;
+  width: 320px;
+  margin-left: 37%;
+  font-size: 16px;
+}
+
+.icon-img img{
+  margin-top: 40px;
+}
+
+.business label {
+  color: black;
+  float: left;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  height: 22px;
+  line-height: normal;
+  font-size: 13px;
+  font-family: Lato;
+  width: 100%;
+}
+
+.business input {
+  background: #ffffff;
+  width: 100%;
+ 
+  height: 35px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.business {
+  margin-top: 15px;
+  margin: 0 auto;
+  height: 60px;
+  width: 320px;
+}
+
+.business select {
+  width: 100%;
+  background: rgba(189, 189, 189, 0.12);
+  border-radius: 4px;
+  height: 35px;
+}
+
+.select {
+  background: rgba(189, 189, 189, 0.12);
+  border-radius: 4px;
+  height: 35px;
+}
+
+.radio-section {
+  width: 400px;
+  margin-left: 34%;
+  margin-bottom: 8px;
+  margin-top: 30px;
+}
+
+.schedule {
+  width: 300px;
+  color: white;
+  height: 39px;
+  background: #0088bb;
+  border: 1px solid #0088bb;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 6;
+  margin-left: 20;
+}
+
+.input-radio {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: normal;
+  font-style: normal;
+  color: black;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0;
+  font-family: Lato;
+}
+
+.heading {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: normal;
+  color: #828282;
+  font-style: normal;
+}
