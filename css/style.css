@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.section section {
+.section div {
   text-align: center;
 }
 
@@ -39,10 +39,6 @@
   font-size: 16px;
 }
 
-.icon-img img{
-  margin-top: 40px;
-}
-
 .business label {
   color: black;
   float: left;
@@ -56,10 +52,13 @@
   width: 100%;
 }
 
+.icon-img img {
+  margin-top: 40px;
+}
+
 .business input {
   background: #ffffff;
   width: 100%;
- 
   height: 35px;
   box-sizing: border-box;
   border-radius: 4px;
@@ -92,8 +91,12 @@
   margin-top: 30px;
 }
 
+table {
+  margin: 8%;
+}
+
 .schedule {
-  width: 300px;
+  width: 400px;
   color: white;
   height: 39px;
   background: #0088bb;
@@ -123,7 +126,7 @@
 
 .heading {
   font-family: Lato;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   line-height: normal;
   color: #828282;
