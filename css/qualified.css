@@ -1,3 +1,7 @@
+.qualified div {
+  text-align: center;
+}
+
 .header {
   position: relative;
   display: flex;
