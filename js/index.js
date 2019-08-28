@@ -1,6 +1,6 @@
 $(document).ready(function() {
   let email = $('#email')
-  let option = $('select#size')
+  let option = $('.select')
   let input = document.getElementsByName('indicator')
   let service
 
@@ -35,13 +35,13 @@ $(document).ready(function() {
       isEmail = 0
     }
 
-    if(option.val() == 'Please Select'){
-      $('#sizeerror').html('Please select valid business size')
-      $('#size').removeClass('inputerror')
-      $('#size').addClass('success')
+    if(option.val() == 'Select Size'){
+      $('#size-error').html('Please select valid business size')
+      $('#size').removeClass('success')
+      $('#size').addClass('inputerror')
       isSize = 1
     } else {
-      $('#sizeerror').hide()
+      $('#size-error').hide()
       $('#size').removeClass('inputerror')
       $('#size').addClass('success')
       isSize = 0
