@@ -7,8 +7,10 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
 
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
 
-  <script type="text/javascript" href="js/index.js"></script>
+
+  <script src="js/index.js"></script>
 </head>
 <body>
   <section class="section">
@@ -50,41 +52,41 @@
         <p id="error-radio" class="error-msg"></p>
         <table>
           <tr>
-            <td><input type="radio" name="indicate" id="real-time" value="Real-Time Analytics" required="">
+            <td><input type="radio" name="indicator" id="real-time" value="Real-Time Analytics" required="">
               <span class="input-radio">Real-Time Analytics</span>
             </td>
-            <td><input type="radio" name="indicate" id="scalability" value="Scalability">
+            <td><input type="radio" name="indicator" id="scalability" value="Scalability">
               <span class="input-radio">Scalability</span>
             </td>
           </tr>
           <tr>
-            <td><input type="radio" name="indicate" id="query" value="Query Response Time">
+            <td><input type="radio" name="indicator" id="query" value="Query Response Time">
               <span class="input-radio">Query Response Time</span>
             </td>
-            <td><input type="radio" name="indicate" id="document" value="Document Storage">
+            <td><input type="radio" name="indicator" id="document" value="Document Storage">
               <span class="input-radio">Document Storage</span>
             </td>
           </tr>
 
           <tr>
-            <td><input type="radio" name="indicate" id="concurrency" value="High Concurrency">
+            <td><input type="radio" name="indicator" id="concurrency" value="High Concurrency">
               <span class="input-radio">High Concurrency</span>
             </td>
-            <td><input type="radio" name="indicate" id="text-search" value="Full Text Search">
+            <td><input type="radio" name="indicator" id="text-search" value="Full Text Search">
               <span class="input-radio">Full Text Search</span>
             </td>
           </tr>
 
           <tr>
-            <td><input type="radio" name="indicate" id="data" value="Fast-Data Ingest">
+            <td><input type="radio" name="indicator" id="data" value="Fast-Data Ingest">
               <span class="input-radio">Fast-Data Ingest</span>
             </td>
-            <td><input type="radio" name="indicate" id="price" value="Price">
+            <td><input type="radio" name="indicator" id="price" value="Price">
               <span class="input-radio">Price</span>
             </td>
           </tr>
         </table>
-      <button class="schedule" type="button" name="submit">Continue to Schedule a Time <i class="fas fa-arrow-right"></i></button>
+      <button class="schedule" id="validate" type="button" name="submit">Continue to Schedule a Time <i class="fas fa-arrow-right"></i></button>
       </div>
     </form>
   </section>
